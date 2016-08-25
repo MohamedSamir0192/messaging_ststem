@@ -10,4 +10,6 @@ echo exec('git add --all');
 echo exec('git commit -m '.$commit_msg);
 echo exec('git pull origin1 master');
 
+/*hlklklklklkl*/
+
 ?>
