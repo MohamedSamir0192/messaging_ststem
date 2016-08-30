@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "914f9194a4d021de88b285b03e683984",
-    "content-hash": "e1929a97e872bdbaacc8530468eccb67",
+    "hash": "6dfb6909ac3339b8bc55de6ec0128c38",
+    "content-hash": "603bdb7f6df9630167029139d980c508",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -254,6 +254,49 @@
                 "markdown-extra"
             ],
             "time": "2015-03-06 05:28:07"
+        },
+        {
+            "name": "dilden/yii2-feedback-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dilden/Yii2-Feedback-Widget.git",
+                "reference": "cc5c50f8fbe0d5ac48b1c8a595c138b954a57cee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dilden/Yii2-Feedback-Widget/zipball/cc5c50f8fbe0d5ac48b1c8a595c138b954a57cee",
+                "reference": "cc5c50f8fbe0d5ac48b1c8a595c138b954a57cee",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "dilden\\feedbackwidget\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Dylan Hildenbrand",
+                    "email": "dylan.hildenbrand@gmail.com"
+                }
+            ],
+            "description": "This Yii2 extension is intended to enable live feedback from users on a Yii2 web app by acting as a wrapper for the ivoviz/feedback plugin.",
+            "keywords": [
+                "extension",
+                "feedback",
+                "widget",
+                "wrapper",
+                "yii2"
+            ],
+            "time": "2016-01-17 23:43:55"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -903,7 +946,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "dilden/yii2-feedback-widget": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

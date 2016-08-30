@@ -27,6 +27,7 @@ AppAsset::register($this);
 
 <?php $this->beginBody() ?>
    <?= $content ?>
+<?= \dilden\feedbackwidget\DildenFeedback::widget(['ajaxURL' => 'pinneapple/feedback', 'highlightElement' => 0,]); ?>
 
 <?php $this->endBody() ?>
 </body>
